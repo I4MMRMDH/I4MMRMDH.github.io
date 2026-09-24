@@ -5,21 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio Ilham Ramadhan — pelajar SMKN 3 Sekayu yang suka menggambar dan ngoding."
+      content="Portfolio Ilham Ramadhan — student developer & visual thinker."
     />
-    <meta name="theme-color" content="#07111f" />
-    <meta property="og:title" content="Ilham Ramadhan — Portfolio" />
-    <meta
-      property="og:description"
-      content="Pelajar SMKN 3 Sekayu. Menggambar, web development, Laravel, C++, dan Leanbot."
-    />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary" />
-    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#ff4d00" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -28,253 +20,259 @@
   </head>
 
   <body>
-    <a class="skip-link" href="#konten">Lewati ke konten utama</a>
+    <a class="skip-link" href="#konten">Lewati ke konten</a>
 
-    <div class="page-glow page-glow--one" aria-hidden="true"></div>
-    <div class="page-glow page-glow--two" aria-hidden="true"></div>
-    <div class="page-grid" aria-hidden="true"></div>
-
-    <header class="site-header" data-header>
-      <div class="container nav-wrap">
-        <a class="brand" href="#beranda" aria-label="Ilham Ramadhan, kembali ke beranda">
-          <span class="brand-mark">IR</span>
-          <span class="brand-text">ILHAM<span>.</span></span>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="wordmark" href="#beranda" aria-label="Ilham Ramadhan, beranda">
+          ILHAM<span>®</span>
         </a>
 
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
-          <span class="sr-only">Buka menu navigasi</span>
-          <span></span><span></span>
-        </button>
+        <p class="header-note">STUDENT / CREATIVE<br />DEVELOPER</p>
 
-        <nav class="site-nav" id="site-nav" aria-label="Navigasi utama" data-nav>
+        <nav aria-label="Navigasi utama">
           <a href="#tentang">Tentang</a>
-          <a href="#keahlian">Keahlian</a>
-          <a href="#proyek">Proyek</a>
-          <a class="nav-contact" href="#kontak">Kontak <span aria-hidden="true">↗</span></a>
+          <a href="#proyek">Karya</a>
+          <a class="nav-cta" href="#kontak">Kontak <span>↗</span></a>
         </nav>
       </div>
     </header>
 
     <main id="konten">
-      <section class="hero section" id="beranda">
-        <div class="container hero-grid">
-          <div class="hero-copy" data-reveal>
-            <p class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span> Portfolio pelajar &amp; developer</p>
-            <h1>Halo, saya <span>Ilham<br />Ramadhan.</span></h1>
-            <p class="hero-description">
-              Pelajar <strong>SMKN 3 Sekayu</strong> yang enjoy dan sloww
+      <section class="hero" id="beranda">
+        <div class="wrap hero-grid">
+          <p class="kicker">[ 01 — PORTFOLIO 2026 ]</p>
+          <p class="hero-location">SEKAYU, ID<br />04°02' S / 103°15' E</p>
+
+          <h1>IDE<br /><em>MENJADI</em><br />KARYA<span>.</span></h1>
+
+          <div class="hero-side">
+            <p>
+              Pelajar SMKN 3 Sekayu yang suka merangkai visual, logika, dan
+              pengalaman digital.
             </p>
-            <div class="hero-actions">
-              <a class="button button--primary" href="#proyek">Lihat proyek <span aria-hidden="true">↓</span></a>
-              <a class="button button--ghost" href="mailto:ilhamramadhankeren98@gmail.com">Hubungi saya <span aria-hidden="true">↗</span></a>
-            </div>
-            <div class="hero-social-proof" aria-label="Minat utama">
-              <span class="mini-line" aria-hidden="true"></span>
-              <span>Menggambar</span>
-              <span class="social-proof-divider" aria-hidden="true"></span>
-              <span>Ngoding</span>
-            </div>
+
+            <a class="round-link" href="#proyek" aria-label="Lihat karya">
+              <span>LIHAT<br />KARYA</span>
+              <b>↓</b>
+            </a>
           </div>
 
-          <div class="hero-visual" data-reveal>
-            <div class="orbit orbit--one" aria-hidden="true"></div>
-            <div class="orbit orbit--two" aria-hidden="true"></div>
-            <div class="code-card">
-              <div class="code-card-bar">
-                <span></span><span></span><span></span>
-                <p>ilham.js</p>
-              </div>
-              <div class="code-content" aria-label="Ringkasan profil Ilham dalam format kode">
-                <p><span class="syntax-key">const</span> <span class="syntax-variable">ilham</span> = {</p>
-                <p class="code-indent"><span class="syntax-property">role</span>: <span class="syntax-string">'student developer'</span>,</p>
-                <p class="code-indent"><span class="syntax-property">school</span>: <span class="syntax-string">'SMKN 3 Sekayu'</span>,</p>
-                <p class="code-indent"><span class="syntax-property">likes</span>: [<span class="syntax-string">'drawing'</span>, <span class="syntax-string">'coding'</span>],</p>
-                <p class="code-indent"><span class="syntax-property">status</span>: <span class="syntax-boolean">'always learning'</span></p>
-                <p>};<span class="typing-caret" aria-hidden="true"></span></p>
-              </div>
-              <div class="code-card-footer">
-                <span><i class="status-dot" aria-hidden="true"></i> Available to learn</span>
-                <span>2026</span>
-              </div>
-            </div>
-            <div class="floating-tag floating-tag--design"><span aria-hidden="true">✦</span> Creative</div>
-            <div class="floating-tag floating-tag--code"><span aria-hidden="true">&lt;/&gt;</span> Build</div>
+          <div class="hero-stamp" aria-hidden="true">
+            <span>DRAW / CODE / LEARN /</span>
+            <strong>IR</strong>
           </div>
+
+          <div class="hero-block" aria-hidden="true"></div>
         </div>
 
-        <div class="container scroll-cue" aria-hidden="true">
-          <span>Gulir untuk menjelajah</span>
-          <i></i>
+        <div class="ticker" aria-hidden="true">
+          <span>
+            DRAWING ✳ WEB DEVELOPMENT ✳ LARAVEL ✳ C++ ✳ LEANBOT ✳ DRAWING ✳
+            WEB DEVELOPMENT ✳ LARAVEL ✳ C++ ✳ LEANBOT ✳
+          </span>
         </div>
       </section>
 
-      <section class="section about" id="tentang">
-        <div class="container about-grid">
-          <div class="section-heading" data-reveal>
-            <p class="eyebrow">01 / Tentang saya</p>
-            <h2>Belajar, berkarya,<br /><span>dan berkembang.</span></h2>
-          </div>
-          <div class="about-copy" data-reveal>
+      <section class="intro section" id="tentang">
+        <div class="wrap intro-grid">
+          <p class="section-index">02 / TENTANG</p>
+
+          <h2>SAYA BELAJAR<br />DENGAN <mark>MEMBUAT.</mark></h2>
+
+          <div class="intro-copy">
             <p>
-              Saya Ilham Ramadhan, seorang pelajar dari SMKN 3 Sekayu. Saya menyukai proses kreatif, mulai dari menggambar hingga menulis kode.
+              Saya Ilham Ramadhan, seorang pelajar yang tertarik pada pertemuan
+              antara kreativitas dan teknologi. Saya percaya karya terbaik lahir
+              dari rasa ingin tahu.
             </p>
-            <p>
-              Saat ini saya terus memperdalam kemampuan di bidang web development, Laravel, C++, dan Leanbot untuk membuat karya yang semakin bermanfaat.
-            </p>
-            <a class="text-link" href="mailto:ilhamramadhankeren98@gmail.com">Mari berkenalan <span aria-hidden="true">→</span></a>
+
+            <a class="text-link" href="mailto:ilhamramadhankeren98@gmail.com">
+              Mari berkenalan <span>→</span>
+            </a>
           </div>
         </div>
 
-        <div class="container values-grid" data-reveal>
-          <article class="value-card">
-            <span class="value-number">01</span>
-            <div class="value-icon value-icon--draw" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m14.7 6.3 3 3M3 21l3.6-.8L18.5 8.3a2.1 2.1 0 0 0-3-3L3.8 17.2 3 21Z"/><path d="m13 7 3 3"/></svg>
-            </div>
+        <div class="wrap principles">
+          <article>
+            <span>01</span>
             <h3>Menggambar</h3>
-            <p>Menuangkan ide lewat visual dan terus melatih rasa kreatif.</p>
+            <p>Memahami bentuk, rasa, dan cara sebuah ide bisa terasa hidup.</p>
           </article>
-          <article class="value-card">
-            <span class="value-number">02</span>
-            <div class="value-icon value-icon--code" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m8 9-3 3 3 3M16 9l3 3-3 3M14 5l-4 14"/></svg>
-            </div>
+
+          <article>
+            <span>02</span>
             <h3>Ngoding</h3>
-            <p>Belajar mengubah masalah menjadi solusi lewat kode.</p>
+            <p>Menyusun logika menjadi pengalaman digital yang berguna.</p>
           </article>
-          <article class="value-card">
-            <span class="value-number">03</span>
-            <div class="value-icon value-icon--learn" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10M18.4 5.6 12 2 5.6 5.6 12 9.2l6.4-3.6Z"/><path d="M5.6 5.6V13l6.4 3.6 6.4-3.6V5.6"/></svg>
-            </div>
-            <h3>Terus belajar</h3>
-            <p>Membuka ruang untuk teknologi, pengalaman, dan tantangan baru.</p>
+
+          <article>
+            <span>03</span>
+            <h3>Belajar</h3>
+            <p>Terbuka pada eksperimen, teknologi, dan tantangan baru.</p>
           </article>
         </div>
       </section>
 
-      <section class="section skills" id="keahlian">
-        <div class="container skills-top">
-          <div class="section-heading" data-reveal>
-            <p class="eyebrow">02 / Keahlian</p>
-            <h2>Alat yang sedang<br /><span>saya pelajari.</span></h2>
-          </div>
-          <p class="skills-intro" data-reveal>Setiap proyek adalah ruang latihan untuk mencoba, memahami, dan membuat sesuatu yang lebih baik.</p>
-        </div>
+      <section class="skills section">
+        <div class="wrap skills-grid">
+          <p class="section-index">03 / TOOLKIT</p>
 
-        <div class="container skill-list" data-reveal>
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Laravel</span><span>CRUD</span><span>C++</span><span>Leanbot</span><span>Menggambar</span>
+          <h2>YANG SEDANG<br />SAYA <em>ASAH.</em></h2>
+
+          <div class="skill-cloud" aria-label="Keahlian">
+            <span class="big">HTML</span>
+            <span>CSS</span>
+            <span class="accent">JAVASCRIPT</span>
+            <span>LARAVEL</span>
+            <span class="big">C++</span>
+            <span>CRUD</span>
+            <span class="accent">LEANBOT</span>
+            <span>DRAWING</span>
+          </div>
         </div>
       </section>
 
-      <section class="section projects" id="proyek">
-        <div class="container projects-heading">
-          <div class="section-heading" data-reveal>
-            <p class="eyebrow">03 / Pilihan proyek</p>
-            <h2>Karya yang<br /><span>saya bangun.</span></h2>
-          </div>
-          <a class="text-link all-projects-link" href="https://github.com/I4MMRMDH" target="_blank" rel="noreferrer" data-reveal>Lihat GitHub <span aria-hidden="true">↗</span></a>
+      <section class="projects section" id="proyek">
+        <div class="wrap projects-head">
+          <p class="section-index">04 / SELECTED WORK</p>
+
+          <h2>BEKERJA<br />DENGAN <em>RASA.</em></h2>
+
+          <a
+            class="text-link"
+            href="https://github.com/I4MMRMDH"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Semua proyek di GitHub <span>↗</span>
+          </a>
         </div>
 
-        <div class="container project-grid">
-          <article class="project-card project-card--one" data-reveal>
-            <div class="project-topline"><span>01</span><span>Web dasar</span></div>
-            <div class="project-visual project-visual--browser" aria-hidden="true">
-              <div class="browser-window">
-                <div class="browser-bar"><i></i><i></i><i></i><b></b></div>
-                <div class="browser-shape shape-a"></div>
-                <div class="browser-shape shape-b"></div>
-                <div class="browser-shape shape-c"></div>
-                <div class="browser-lines"><i></i><i></i><i></i></div>
-              </div>
+        <div class="wrap project-grid">
+          <article class="project project--orange">
+            <div class="project-meta">
+              <span>01 / 2026</span>
+              <span>WEB DASAR</span>
             </div>
-            <div class="project-content">
-              <h3>Website Dasar</h3>
-              <p>Proyek awal saya untuk mempelajari dasar pembuatan website menggunakan HTML, CSS, dan JavaScript.</p>
-              <ul class="project-tags" aria-label="Teknologi"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+
+            <div class="project-art browser-art" aria-hidden="true">
+              <i></i>
+              <b>HELLO<br />WORLD</b>
+              <span></span>
+            </div>
+
+            <div class="project-info">
+              <h3>Website<br />Dasar</h3>
+              <p>
+                Eksplorasi awal HTML, CSS, dan JavaScript untuk membuat halaman
+                web yang interaktif.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
             </div>
           </article>
 
-          <article class="project-card project-card--two" data-reveal>
-            <div class="project-topline"><span>02</span><span>Web aplikasi</span></div>
-            <div class="project-visual project-visual--dashboard" aria-hidden="true">
-              <div class="dashboard-window">
-                <aside><i></i><i></i><i></i><i></i></aside>
-                <div class="dashboard-main"><b></b><div class="chart"><i></i><i></i><i></i><i></i><i></i></div><div class="dashboard-cards"><i></i><i></i><i></i></div></div>
-              </div>
+          <article class="project project--blue">
+            <div class="project-meta">
+              <span>02 / 2026</span>
+              <span>WEB APP</span>
             </div>
-            <div class="project-content">
-              <h3>Laravel CRUD</h3>
-              <p>Aplikasi web berbasis Laravel yang menerapkan fitur create, read, update, dan delete untuk mengelola data.</p>
-              <ul class="project-tags" aria-label="Teknologi"><li>Laravel</li><li>PHP</li><li>CRUD</li></ul>
+
+            <div class="project-art dashboard-art" aria-hidden="true">
+              <i></i><i></i><i></i>
+              <b>CRUD</b>
+              <span></span><span></span><span></span>
+            </div>
+
+            <div class="project-info">
+              <h3>Laravel<br />CRUD</h3>
+              <p>
+                Aplikasi untuk mengelola data dengan fungsi create, read,
+                update, dan delete.
+              </p>
+              <ul>
+                <li>LARAVEL</li>
+                <li>PHP</li>
+                <li>CRUD</li>
+              </ul>
             </div>
           </article>
 
-          <article class="project-card project-card--three" data-reveal>
-            <div class="project-topline"><span>03</span><span>Eksplorasi</span></div>
-            <div class="project-visual project-visual--bot" aria-hidden="true">
-              <div class="bot">
-                <div class="bot-antenna"></div><div class="bot-head"><i></i><i></i></div><div class="bot-body"><span>&lt;/&gt;</span></div><div class="bot-feet"><i></i><i></i></div>
-              </div>
-              <div class="bot-spark spark-one">+</div><div class="bot-spark spark-two">×</div><div class="bot-spark spark-three">•</div>
+          <article class="project project--lime">
+            <div class="project-meta">
+              <span>03 / 2026</span>
+              <span>EXPLORATION</span>
             </div>
-            <div class="project-content">
-              <h3>C++ &amp; Leanbot</h3>
-              <p>Eksplorasi pemrograman C++ dan Leanbot untuk membangun logika serta pengalaman belajar teknologi yang interaktif.</p>
-              <ul class="project-tags" aria-label="Teknologi"><li>C++</li><li>Leanbot</li><li>Logic</li></ul>
+
+            <div class="project-art bot-art" aria-hidden="true">
+              <b>&lt;/&gt;</b>
+              <i></i><i></i>
+              <span>+</span><span>×</span>
+            </div>
+
+            <div class="project-info">
+              <h3>C++ &amp;<br />Leanbot</h3>
+              <p>
+                Eksplorasi pemrograman dan robotik untuk mempertajam logika
+                lewat pengalaman belajar yang interaktif.
+              </p>
+              <ul>
+                <li>C++</li>
+                <li>LEANBOT</li>
+                <li>LOGIC</li>
+              </ul>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="section contact" id="kontak">
-        <div class="container contact-card" data-reveal>
-          <div class="contact-noise" aria-hidden="true"></div>
-          <p class="eyebrow">04 / Mari terhubung</p>
-          <h2>Punya ide yang ingin<br /><span>dibuat bersama?</span></h2>
-          <p class="contact-description">Punya pertanyaan, ide, atau ingin berkolaborasi? Pilih salah satu tempat untuk menghubungi saya.</p>
-          <div class="contact-actions">
-            <a class="button button--light" href="mailto:ilhamramadhankeren98@gmail.com">Kirim email <span aria-hidden="true">↗</span></a>
-            <button class="button button--outline-light" type="button" data-copy-email data-email="ilhamramadhankeren98@gmail.com">Salin email <span aria-hidden="true">⧉</span></button>
-          </div>
-          <p class="copy-feedback" data-copy-feedback role="status" aria-live="polite"></p>
-        </div>
+      <section class="contact" id="kontak">
+        <div class="wrap contact-grid">
+          <p class="section-index">05 / CONTACT</p>
 
-        <div class="container social-grid" data-reveal>
-          <a class="social-card" href="https://www.instagram.com/i4mmrmdhan/" target="_blank" rel="noreferrer">
-            <span class="social-icon social-icon--instagram" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.4" cy="6.7" r=".8" fill="currentColor" stroke="none"/></svg>
-            </span>
-            <span><small>Instagram</small><strong>@i4mmrmdhan</strong></span>
-            <b aria-hidden="true">↗</b>
-          </a>
-          <a class="social-card" href="https://www.tiktok.com/@ilhammm_r22" target="_blank" rel="noreferrer">
-            <span class="social-icon social-icon--tiktok" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.2 4v9.1a4.4 4.4 0 1 1-3.8-4.4"/><path d="M14.2 4c.8 2.7 2.5 4.2 5 4.5"/></svg>
-            </span>
-            <span><small>TikTok</small><strong>@ilhammm_r22</strong></span>
-            <b aria-hidden="true">↗</b>
-          </a>
-          <a class="social-card" href="https://github.com/I4MMRMDH" target="_blank" rel="noreferrer">
-            <span class="social-icon social-icon--github" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.6a9.7 9.7 0 0 0-3.07 18.9c.49.09.66-.21.66-.47v-1.69c-2.68.58-3.25-1.14-3.25-1.14-.44-1.1-1.07-1.4-1.07-1.4-.88-.59.07-.58.07-.58.97.07 1.49 1 1.49 1 .87 1.48 2.27 1.05 2.82.8.09-.63.34-1.05.62-1.29-2.14-.24-4.39-1.06-4.39-4.76 0-1.05.38-1.9 1-2.58-.1-.24-.43-1.22.1-2.55 0 0 .81-.26 2.66.98A9.24 9.24 0 0 1 12 6.8c.83 0 1.66.11 2.44.33 1.85-1.24 2.66-.98 2.66-.98.53 1.33.2 2.31.1 2.55.62.68 1 1.53 1 2.58 0 3.7-2.25 4.51-4.4 4.75.35.3.65.87.65 1.76v2.62c0 .26.18.56.66.47A9.7 9.7 0 0 0 12 2.6Z"/></svg>
-            </span>
-            <span><small>GitHub</small><strong>@I4MMRMDH</strong></span>
-            <b aria-hidden="true">↗</b>
-          </a>
+          <h2>MARI BUAT<br />SESUATU<br /><em>BERARTI.</em></h2>
+
+          <div class="contact-copy">
+            <p>
+              Punya pertanyaan, ide, atau ingin berkolaborasi? Kirim pesan—saya
+              akan senang mendengarnya.
+            </p>
+
+            <a class="email-link" href="mailto:ilhamramadhankeren98@gmail.com">
+              ilhamramadhankeren98@gmail.com <span>↗</span>
+            </a>
+          </div>
+
+          <div class="contact-footer">
+            <a
+              href="https://www.instagram.com/i4mmrmdhan/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram ↗
+            </a>
+            <a
+              href="https://www.tiktok.com/@ilhammm_r22"
+              target="_blank"
+              rel="noreferrer"
+            >
+              TikTok ↗
+            </a>
+            <a
+              href="https://github.com/I4MMRMDH"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub ↗
+            </a>
+            <span>© 2026 ILHAM RAMADHAN</span>
+          </div>
         </div>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <a class="brand" href="#beranda" aria-label="Kembali ke atas">
-          <span class="brand-mark">IR</span>
-          <span class="brand-text">ILHAM<span>.</span></span>
-        </a>
-        <p>© <span data-current-year>2026</span> Ilham Ramadhan. Dibuat dengan penuh semangat </p>
-        <a class="back-to-top" href="#beranda">Kembali ke atas <span aria-hidden="true">↑</span></a>
-      </div>
-    </footer>
   </body>
 </html>
